@@ -1,5 +1,5 @@
 {
-  "name": "httpstatus",
+  "name": "httpstatus-str",
   "version": "1.0.0",
   "description": "Given a string \"status code\", httpstatus returns status text.",
   "main": "index.js",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/twskj/HTTPStatus/issues"
   },
-  "homepage": "https://github.com/twskj/HTTPStatus#readme"
+  "homepage": "https://github.com/twskj/HTTPStatus#readme",
+  "bin": {
+    "httpstatus": "bin/run.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
